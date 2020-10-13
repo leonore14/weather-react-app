@@ -71,7 +71,6 @@ class App extends Component {
     return (
       <>
       <Navbar />
-      <Home />
       <Switch>
         <Route exact path='/' render={() => renderData()} />
         <Route path='/contact' component={Contact} />
